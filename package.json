@@ -1,0 +1,28 @@
+{
+  "name": "pickle",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^1.35.0",
+    "axios": "^0.26.1",
+    "axios-auth-refresh": "^3.2.2",
+    "joi": "^17.6.0",
+    "next": "12.1.5",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-hot-toast": "^2.2.0",
+    "recoil": "^0.7.2",
+    "remixicon": "^2.5.0",
+    "sass": "^1.50.0"
+  },
+  "devDependencies": {
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.5"
+  }
+}

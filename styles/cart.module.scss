@@ -1,0 +1,46 @@
+.cart_container {
+  display: flex;
+}
+@media only screen and (max-width: 850px) {
+  .cart_container {
+    display: grid;
+  }
+}
+
+.products_container {
+  flex: 1.25;
+}
+
+.checkout_container {
+  flex: 1;
+  margin-left: 20px;
+  border-radius: 18px;
+  button,
+  input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+.linear_inputs {
+  display: flex;
+  input {
+    &:nth-of-type(1) {
+      margin-right: 10px;
+    }
+    &:nth-of-type(2) {
+      margin-left: 10px;
+    }
+  }
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  div {
+    &:nth-child(1) {
+      opacity: 0.58;
+    }
+  }
+}

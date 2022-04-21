@@ -1,0 +1,44 @@
+.orders_container {
+  display: flex;
+}
+
+.order_list_container {
+  flex: 1;
+  .order {
+    padding: 20px;
+    border: 2px solid rgba(var(--color), 0.05);
+    border-radius: 18px;
+    margin-bottom: 20px;
+    &[data-active="true"] {
+      background: rgba(var(--brand-color-dark), 1);
+    }
+    &:hover {
+      border-color: rgba(var(--color), 0.1);
+      cursor: pointer;
+    }
+  }
+  .order_name {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .item {
+    font-size: 14px;
+    color: rgba(var(--color), 0.58);
+    span {
+      display: block;
+      font-size: 16px;
+      color: rgba(var(--color), 1);
+    }
+  }
+}
+
+.order_summary_container {
+  flex: 1;
+  margin-left: 20px;
+  border-radius: 18px;
+}
